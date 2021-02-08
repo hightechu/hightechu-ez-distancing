@@ -50,7 +50,7 @@ Light to visually alert the user
   
   
   
- ## Diagrams
+ ## Diagrams | [See the Digital Circuit](https://www.tinkercad.com/things/4oZ3T0bb2it)
 ![EZ Social Distancing](https://github.com/hightechu/hightechu-ez-distancing/blob/readme-updates/Images/nolabels.png)
 ![EZ Social Distancing Labels](https://github.com/hightechu/hightechu-ez-distancing/blob/readme-updates/Images/lables.png)
 ![EZ Social Distancing Schematic](https://github.com/hightechu/hightechu-ez-distancing/blob/readme-updates/Images/schematic.png)
