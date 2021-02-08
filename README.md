@@ -35,10 +35,10 @@ Light to visually alert the user
 ## Components List
 
 #### All of the components used can be easily sourced on Amazon for about $100USD or $130 CAD
-  - 1x [Arduino Uno R3](https://amzn.to/39Mofgh) 
-  - 1x [OLED Display](https://amzn.to/3oUkh9T) | [OLED Datasheet](https://www.waveshare.com/0.91inch-oled-module.htm)
-  - 2x [PIR Sensors](https://amzn.to/3jdQJ5E) | [PIR Datasheet](https://cdn-learn.adafruit.com/downloads/pdf/pir-passive-infrared-proximity-motion-sensor.pdf)
-  - 2x [Ultrasonic Distance Sensors](https://amzn.to/3cDDKZL) | [Ultrasonic Datasheet](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)
+  - 1x [Arduino Uno R3](https://amzn.to/39Mofgh) | [Arduino Datasheet](https://github.com/hightechu/hightechu-ez-distancing/blob/readme-updates/Datasheets/Arduino%20Datasheet.pdf)
+  - 1x [OLED Display](https://amzn.to/3oUkh9T) | [OLED Datasheet](https://github.com/hightechu/hightechu-ez-distancing/blob/readme-updates/Datasheets/OLED%20Datasheet.pdf)
+  - 2x [PIR Sensors](https://amzn.to/3jdQJ5E) | [PIR Datasheet](https://github.com/hightechu/hightechu-ez-distancing/blob/readme-updates/Datasheets/PIR%20Datasheet.pdf)
+  - 2x [Ultrasonic Distance Sensors](https://amzn.to/3cDDKZL) | [Ultrasonic Datasheet](https://github.com/hightechu/hightechu-ez-distancing/blob/readme-updates/Datasheets/Ultrasonic%20Datasheet.pdf)
   - 1x [Vibration Motor](https://amzn.to/2O4mnXT)
   - 1x [LED Light](https://amzn.to/2MWNaoA)
   - 1x [330 Ohm Resistor](https://amzn.to/2MNKfhM)
