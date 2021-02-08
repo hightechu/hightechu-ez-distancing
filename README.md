@@ -36,9 +36,9 @@ Light to visually alert the user
 
 #### All of the components used can be easily sourced on Amazon for about $100USD or $130 CAD
   - 1x [Arduino Uno R3](https://amzn.to/39Mofgh) 
-  - 1x [OLED Display](https://amzn.to/3oUkh9T)
-  - 2x [PIR Sensors](https://amzn.to/3jdQJ5E)
-  - 2x [Ultrasonic Distance Sensors](https://amzn.to/3cDDKZL)
+  - 1x [OLED Display](https://amzn.to/3oUkh9T) | [OLED Datasheet](https://www.waveshare.com/0.91inch-oled-module.htm)
+  - 2x [PIR Sensors](https://amzn.to/3jdQJ5E) | [PIR Datasheet](https://cdn-learn.adafruit.com/downloads/pdf/pir-passive-infrared-proximity-motion-sensor.pdf)
+  - 2x [Ultrasonic Distance Sensors](https://amzn.to/3cDDKZL) | [Ultrasonic Datasheet](https://cdn.sparkfun.com/datasheets/Sensors/Proximity/HCSR04.pdf)
   - 1x [Vibration Motor](https://amzn.to/2O4mnXT)
   - 1x [LED Light](https://amzn.to/2MWNaoA)
   - 1x [330 Ohm Resistor](https://amzn.to/2MNKfhM)
