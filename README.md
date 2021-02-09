@@ -71,6 +71,7 @@ This will be used to turn the whole system on or off.
 ## Wiring List
 
 
+
 ### LCD (Note: This is for the Arduino 16x2 display. This will need the LCD specific [code](https://github.com/hightechu/hightechu-ez-distancing/blob/development/EZ_Social_Distance(16x2%20LCD).ino))
 - GND → Ground
 - VCC → Positive
