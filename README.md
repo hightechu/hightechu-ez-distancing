@@ -69,15 +69,36 @@ This will be used to turn the whole system on or off.
 
 ## Wiring List
 
-### OLED (Note: This wiring list is for the OLED display only):
+### LCD (Note: This is for the Arduino 16x2 display. This will need the LCD specific code.)
+- gnd → Ground
+- VCC → Positive
+- V0 → potentiometer wiper pin → Positive (5V) + Ground
+- RS → Digital 2
+- R/W → Ground
+- E → Digital 6
+- D0 → Nothing
+- D1 → Nothing
+- D2 → Nothing
+- D3 → Nothing
+- D4 → Digital 5
+- D5 → Digital 4
+- D6 → Digital 3
+- D7 → Digital 7
+- A (Anode) → 220 Ohm resistor → Positive (5V)
+- K (Cathode) → Ground
+
+### OR
+
+
+### OLED (Note: This wiring list is for the OLED. This will need the OLED specific code.):
 - GND → Dipswitch 2 → Ground
 - VCC → Positive (5V)
 - SCK → Digital 6
 - SDA → Digital 7
 
 ### LED:
-- Cathode → Dipswitch 3 → Ground
-- Anode → 330 Ohm resistor → Digital 10
+- Cathode (Long Side) → Dipswitch 3 → Ground
+- Anode (Short Side) → 330 Ohm resistor → Digital 10
 
 ### Vibration Motor:
 - GND → Ground
