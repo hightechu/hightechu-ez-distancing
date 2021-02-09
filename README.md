@@ -70,7 +70,7 @@ This will be used to turn the whole system on or off.
 ## Wiring List
 
 ### LCD (Note: This is for the Arduino 16x2 display. This will need the LCD specific code.)
-- gnd → Ground
+- GND → Ground
 - VCC → Positive
 - V0 → potentiometer wiper pin → Positive (5V) + Ground
 - RS → Digital 2
