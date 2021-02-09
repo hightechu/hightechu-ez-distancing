@@ -69,7 +69,7 @@ This will be used to turn the whole system on or off.
 ## Wiring List
 
 ### OLED (Note: This wiring list is for the OLED display only):
-- GND → Dipswitch 2 -> Ground
+- GND → Dipswitch 2 → Ground
 - VCC → Positive (5V)
 - SCK → Digital 6
 - SDA → Digital 7
