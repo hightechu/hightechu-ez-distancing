@@ -55,8 +55,9 @@ This will be used to turn the whole system on or off.
   - 1x Dip Switches | [Amazon](https://amzn.to/3je81Q0) | For the dipswitches, you can also use multiple normal switches
   - 1x Arduino 9v Battery Clip | [Amazon](https://amzn.to/3aAL9Gw) | This needs to be a 9V battery clip to 5.5mm barrel jack adapter
   - 1x 9 Volt Battery | [Amazon](https://amzn.to/36EQhbG) | Any 9V battery will work
-  
-  
+
+
+
 
  ## Diagrams | [See the Digital Circuit Here](https://www.tinkercad.com/things/4oZ3T0bb2it)
 ![EZ Social Distancing](https://github.com/hightechu/hightechu-ez-distancing/blob/readme-updates/Images/nolabels.png)
@@ -69,15 +70,37 @@ This will be used to turn the whole system on or off.
 
 ## Wiring List
 
-### OLED (Note: This wiring list is for the OLED display only):
+
+### LCD (Note: This is for the Arduino 16x2 display. This will need the LCD specific code.)
+- GND → Ground
+- VCC → Positive
+- V0 → potentiometer wiper pin → Positive (5V) + Ground
+- RS → Digital 2
+- R/W → Ground
+- E → Digital 6
+- D0 → Nothing
+- D1 → Nothing
+- D2 → Nothing
+- D3 → Nothing
+- D4 → Digital 5
+- D5 → Digital 4
+- D6 → Digital 3
+- D7 → Digital 7
+- A (Anode) → 220 Ohm resistor → Positive (5V)
+- K (Cathode) → Ground
+
+### OR
+
+
+### OLED (Note: This wiring list is for the OLED. This will need the OLED specific code.)
 - GND → Dipswitch 2 → Ground
 - VCC → Positive (5V)
 - SCK → Digital 6
 - SDA → Digital 7
 
 ### LED:
-- Cathode → Dipswitch 3 → Ground
-- Anode → 330 Ohm resistor → Digital 10
+- Cathode (Long Side) → Dipswitch 3 → Ground
+- Anode (Short Side) → 330 Ohm resistor → Digital 10
 
 ### Vibration Motor:
 - GND → Ground
@@ -110,4 +133,3 @@ This will be used to turn the whole system on or off.
 - VCC → Positive (5V)
 - Trig → Analog 1
 - Echo → Analog 0
-- GND → Ground
