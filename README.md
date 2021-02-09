@@ -69,44 +69,44 @@ This will be used to turn the whole system on or off.
 ## Wiring List
 
 ### OLED (Note: This wiring list is for the OLED display only):
-- GND -> Dipswitch 2 -> Ground
-- VCC -> Positive (5V)
-- SCK -> Digital 6
-- SDA -> Digital 7
+- GND → Dipswitch 2 -> Ground
+- VCC → Positive (5V)
+- SCK → Digital 6
+- SDA → Digital 7
 
 ### LED:
-- Cathode -> Dipswitch 3 -> Ground
-- Anode -> 330 Ohm resistor -> Digital 10
+- Cathode → Dipswitch 3 → Ground
+- Anode → 330 Ohm resistor → Digital 10
 
 ### Vibration Motor:
-- GND -> Ground
-- VCC -> Positive (5V)
-- IN -> Digital 9
+- GND → Ground
+- VCC → Positive (5V)
+- IN → Digital 9
 
 ### Dipswitches:
-- Switch 1 -> Ground
-- Switch 2 -> Ground
-- Switch 3 -> Ground
-- Switch 4 -> Ground
+- Switch 1 → Ground
+- Switch 2 → Ground
+- Switch 3 → Ground
+- Switch 4 → Ground
 
 ### PIR Sensor 1:
-- Signal -> Digital 11
-- Power -> Positive (5V)
-- GND -> Ground
+- Signal → Digital 11
+- Power → Positive (5V)
+- GND → Ground
 
 ### PIR Sensor 2:
-- Signal -> Digital 12
-- Power -> Positive (5V)
-- GND -> Ground
+- Signal → Digital 12
+- Power → Positive (5V)
+- GND → Ground
 
 ### Ultrasonic Distance Sensor 1:
-- VCC -> Positive (5V)
-- Trig -> Analog 4
-- Echo -> Analog 5
-- GND -> Ground
+- VCC → Positive (5V)
+- Trig → Analog 4
+- Echo → Analog 5
+- GND → Ground
 
 ### Ultrasonic Distance Sensor 2:
-- VCC -> Positive (5V)
-- Trig -> Analog 1
-- Echo -> Analog 0
-- GND -> Ground
+- VCC → Positive (5V)
+- Trig → Analog 1
+- Echo → Analog 0
+- GND → Ground
