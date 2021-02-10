@@ -57,8 +57,6 @@ This will be used to turn the whole system on or off.
   - 1x 9 Volt Battery | [Amazon](https://amzn.to/36EQhbG) | Any 9V battery will work
 
 
-
-
  ## Diagrams | [See the Digital Circuit Here](https://www.tinkercad.com/things/4oZ3T0bb2it)
 ![EZ Social Distancing](https://github.com/hightechu/hightechu-ez-distancing/blob/readme-updates/Images/nolabels.png)
 ![EZ Social Distancing Labels](https://github.com/hightechu/hightechu-ez-distancing/blob/readme-updates/Images/lables.png)
@@ -69,10 +67,6 @@ This will be used to turn the whole system on or off.
 
 
 ## Wiring List
-
-
-
-
 ### LCD (Note: This is for the Arduino 16x2 display. This will need the [LCD specific code](https://github.com/hightechu/hightechu-ez-distancing/blob/development/EZ_Social_Distance(16x2%20LCD).ino))
 - GND → Ground
 - VCC → Positive
@@ -105,6 +99,7 @@ This will be used to turn the whole system on or off.
 - Cathode (Long Side) → Dipswitch 3 → Ground
 - Anode (Short Side) → 330 Ohm resistor → Digital 10
 
+
 ### Vibration Motor:
 - GND → Ground
 - VCC → Positive (5V)
@@ -136,3 +131,4 @@ This will be used to turn the whole system on or off.
 - VCC → Positive (5V)
 - Trig → Analog 1
 - Echo → Analog 0
+- GND → Ground
