@@ -12,7 +12,7 @@ This Arduino project uses 2 Passive Infared Sensors (PIR) and 2 Ultrasonic Dista
 Microcontroller that will be handling all of the code, data, and inputs/outputs
 
 
-- OLED Screen:
+- OLED or LCD Screen:
 To give the user different text based alerts
 
 
