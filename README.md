@@ -92,8 +92,8 @@ This will be used to turn the whole system on or off.
 ### OLED (Note: This wiring list is for the OLED. This will need the OLED specific code.)
 - GND → Dipswitch 2 → Ground
 - VCC → Positive (5V)
-- SCK → Digital 6
-- SDA → Digital 7
+- SCK → Analog 4
+- SDA → Analog 5
 
 ### LED:
 - Cathode (Long Side) → Dipswitch 3 → Ground
@@ -123,8 +123,8 @@ This will be used to turn the whole system on or off.
 
 ### Ultrasonic Distance Sensor 1:
 - VCC → Positive (5V)
-- Trig → Analog 4
-- Echo → Analog 5
+- Trig → Analog 2
+- Echo → Analog 3
 - GND → Ground
 
 ### Ultrasonic Distance Sensor 2:
