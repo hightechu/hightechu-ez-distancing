@@ -67,7 +67,7 @@ This will be used to turn the whole system on or off.
 
 
 ## Wiring List
-### LCD (Note: This is for the Arduino 16x2 display. This will need the [LCD specific code](https://github.com/hightechu/hightechu-ez-distancing/blob/development/EZ_Social_Distance(16x2%20LCD).ino))
+### LCD (Note: This is for the Arduino 16x2 display. This will need the [LCD specific code](https://github.com/hightechu/hightechu-ez-distancing/blob/development/Arduino%20Code/EZ%20Social%20Distance%20(LCD16x2)/EZ%20Social%20Distance%20(LCD16x2).ino))
 - GND → Ground
 - VCC → Positive
 - V0 → potentiometer wiper pin → Positive (5V) + Ground
@@ -89,7 +89,7 @@ This will be used to turn the whole system on or off.
 ### OR
 
 
-### OLED (Note: This wiring list is for the OLED. This will need the OLED specific code.)
+### OLED (Note: This wiring list is for the OLED. This will need the [OLED specific code](https://github.com/hightechu/hightechu-ez-distancing/blob/development/Arduino%20Code/EZ%20Social%20Distance%20(OLED)/EZ%20Social%20Distance%20(OLED).ino))
 - GND → Dipswitch 2 → Ground
 - VCC → Positive (5V)
 - SCK → Analog 4
