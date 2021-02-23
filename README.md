@@ -89,6 +89,7 @@ This will be used to turn the whole system on or off.
 ### OR
 
 
+
 ### OLED (Note: This wiring list is for the OLED. This will need the [OLED specific code](https://github.com/hightechu/hightechu-ez-distancing/blob/development/Arduino%20Code/EZ%20Social%20Distance%20(OLED)/EZ%20Social%20Distance%20(OLED).ino))
 - GND → Dipswitch 2 → Ground
 - VCC → Positive (5V)
