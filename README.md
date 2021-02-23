@@ -106,10 +106,8 @@ This will be used to turn the whole system on or off.
 - IN → Digital 9
 
 ### Dipswitches:
-- Switch 1 → Ground
-- Switch 2 → Ground
-- Switch 3 → Ground
-- Switch 4 → Ground
+- Switch 1 (LED Resistor) → Digital 10 (This dipswitch is to turn the LED alerts on/off)
+- Switch 2 (Vibration Motor In) → Digital 9 (This dipswitch is to turn the vibration alerts on/off)
 
 ### PIR Sensor 1:
 - Signal → Digital 11
