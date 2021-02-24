@@ -3,8 +3,18 @@
 ![badge](https://img.shields.io/badge/Status-In_Development-red)
 ![licence](https://img.shields.io/badge/Licence-MIT-green)
 
-## EZ Distancing is a Social Distancing Smart Phone Case Prototype currently in development.
-This Arduino project uses 2 Passive Infared Sensors (PIR) and 2 Ultrasonic Distance Sensors to detect if another person is within the users 2 meter social distancing bubble. If the device detects that a person is within a 2 meter radius of the user, it will alert them, letting them know that they should move away to maintain social distancing. If the person is maintaining their social distancing, it will let them know that they are the recommended distance away from others.
+## EZ Distancing is an Arduino project that encourages users to follow social distancing protocols
+This Arduino project uses 2 Passive Infrared Sensors (PIR) and 2 Ultrasonic Distance Sensors to detect if another person is within the users 2 meter social distancing bubble. If the device detects that a person is within a 2 meter radius of the user, it will alert them, letting them know that they should move away to maintain social distancing. If the person is maintaining their social distancing, it will let them know that they are the recommended distance away from others.
+
+## How it works
+
+- The 2 Ultrasonic sensors measure the distance of the target object by emitting ultrasonic sound waves. The sensor determines the distance of an object by calculating the time it takes to send and receive a pulse.
+
+- The Passive Infrared sensors measure the amount of IR light (or heat) that an object gives off. These sensors are being used to differentiate between non-living and living things. 
+
+- When the device detects that another person is too close, it will give the user alerts via an OLED or LCD display and a LED/vibration motor.
+
+- The DIP switches allow the user to choose which alerts they want to receive. Individual components can be turned off, like the LED or vibration motor.
 
 ## Component Usage
 
@@ -31,7 +41,7 @@ Vibration to physically alert the user
 - LED:
 Light to visually alert the user 
 
-- Dipswitches:
+- DIP switches:
 This is to turn off any specific components, such as the LCD, OLED display, or vibration motor. This component is optional and wont require any changes to the code.
 
 - Switch:
@@ -52,7 +62,7 @@ This will be used to turn the whole system on or off.
   - 1x LED Light | [Amazon](https://amzn.to/2MWNaoA) | Any basic LED light will work
   - 1x 330 Ohm Resistor | [Amazon](https://amzn.to/2MNKfhM) | Any 330 ohm resistor will work
   - 1x Power Switch | [Amazon](https://amzn.to/2O3LQ3I) | This can be any type of basic switch
-  - 1x Dip Switches | [Amazon](https://amzn.to/3je81Q0) | For the dipswitches, you can also use multiple normal switches
+  - 1x DIP Switches | [Amazon](https://amzn.to/3je81Q0) | For the dipswitches, you can also use multiple normal switches
   - 1x Arduino 9v Battery Clip | [Amazon](https://amzn.to/3aAL9Gw) | This needs to be a 9V battery clip to 5.5mm barrel jack adapter
   - 1x 9 Volt Battery | [Amazon](https://amzn.to/36EQhbG) | Any 9V battery will work
 
@@ -89,7 +99,6 @@ This will be used to turn the whole system on or off.
 ### OR
 
 
-
 ### OLED (Note: This wiring list is for the OLED. This will need the [OLED specific code](https://github.com/hightechu/hightechu-ez-distancing/blob/development/Arduino%20Code/EZ%20Social%20Distance%20(OLED)/EZ%20Social%20Distance%20(OLED).ino))
 - GND → Dipswitch 2 → Ground
 - VCC → Positive (5V)
@@ -106,7 +115,8 @@ This will be used to turn the whole system on or off.
 - VCC → Positive (5V)
 - IN → Digital 9
 
-### Dipswitches:
+
+### DIP switches:
 - Switch 1 (LED Resistor) → Digital 10 (This dipswitch is to turn the LED alerts on/off)
 - Switch 2 (Vibration Motor In) → Digital 9 (This dipswitch is to turn the vibration alerts on/off)
 
